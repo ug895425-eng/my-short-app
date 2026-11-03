@@ -14,7 +14,7 @@ if st.button("Short Video Banayein"):
         st.info("Video process ho rahi hai, kripya 1-2 minute intazar karein...")
         try:
             ydl_opts = {
-                'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+                'format': 'mp4',
                 'outtmpl': 'downloaded_video.mp4',
                 'overwrites': True,
             }
